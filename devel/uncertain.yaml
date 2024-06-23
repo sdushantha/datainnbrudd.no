@@ -1,0 +1,53 @@
+- entity: To-sifret antall norske bedrifter berørt
+  alt-name: Se artikkel
+  incident-type: SolarWinds
+  ransomware-type: null
+  date: "2020-12-??"
+  sector: Other
+  reference:
+    - https://www.digi.no/artikler/norske-kraftselskaper-berort-av-solarwinds-hacking/507250
+
+- entity: Habi
+  alt-name: null
+  incident-type: Ransomware
+  ransomware-type: Pysa
+  date: "2021-04-21"
+  sector: Engineering and manufacturing
+  reference:
+    - https://nrkbeta.no/2022/01/11/losepengevirus-koster-norske-virksomheter-dyrt/
+
+- entity: Amobil
+  alt-name: null
+  incident-type:  Ransomware
+  ransomware-type: Conti
+  date: "2022-03-??"
+  sector: Telecommunications
+  reference:
+    - Conti DLS
+
+- entity: NGO
+  alt-name: null
+  incident-type: Business Email Compromise
+  ransomware-type: null
+  date: "2022-03-30"
+  sector: Non-profit
+  reference:
+    - Not public?
+
+- entity: Offshore technology company
+  alt-name: null
+  incident-type: Business Email Compromise
+  ransomware-type: null
+  date: "2022-12-??"
+  sector: Oil & gas
+  reference: null
+
+- entity: Flere sykehus
+  alt-name: null
+  incident-type: DDoS
+  ransomware-type: null
+  date: "2023-01-28"
+  sector: Healthcare
+  reference:
+    - https://www.tv2.no/direkte/jpybz/siste-nytt/63d51463bd350e3fa3e47cf9
+    - https://www.kode24.no/artikkel/helgens-ddos-angrep-handlet-forst-og-fremst-om-a-skape-oppmerksomhet-mer-en-irritasjon/78357345
