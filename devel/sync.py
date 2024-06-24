@@ -41,7 +41,7 @@ mode: 'wide'
 """
 
 # Define the header of the Markdown table
-markdown_table = header + "| Dato | Offer | Hendelse type |\n| --- | --- | --- |\n"
+markdown_table = header + "| Dato | Offer | Hendelse type |\n|:--- |:--- |:--- |\n"
 
 # Remove the existing victim directory and create a new one
 shutil.rmtree(victim_dir, ignore_errors=True)
@@ -70,7 +70,7 @@ mode: 'wide'
 
 <sup><i>Oppsummeringen er laget av en KI-tjeneste fra OpenAI. Innholdet er kvalitetssikret før publisering</i></sup>
 
-## Refereranser
+## Kilder
 {references}
 """
     
