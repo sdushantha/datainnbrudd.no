@@ -1,9 +1,9 @@
 - entity: Statsforvalterembetene
-  incident-type: null
+  incident-type: Spionasje
   ransomware-type: null
   date: "2018-??-??"
   sector: Government
-  image: statsforvalterens.jpg
+  image: statsforvalteren.png
   summary: "Politiets sikkerhetstjeneste (PST) har avsluttet etterforskningen av et dataangrep mot fylkesmannsembetene i Norge, som nå kalles statsforvalterembetene. Angrepet, som skjedde i 2018, ble etter alt å dømme utført av en kinesisk etterretningsgruppe kalt APT31. Målet med angrepet var å skaffe informasjon fra embetene, som håndterer betydelig mengde sensitiv informasjon knyttet til statlige og kommunale tjenester. Etterforskningen har bekreftet at APT31, kjent for å utføre sofistikerte cyberoperasjoner på vegne av kinesiske myndigheter, stod bak angrepet​
   
  
@@ -13,28 +13,30 @@
     - https://www.nrk.no/norge/pst_-har-etterretning-om-at-kinesisk-gruppe-stod-bak-dataangrep-mot-statsforvaltere-1.15540601
 
 - entity: Norsk Hydro
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: LockerGoga
   date: "2019-03-??"
   sector: Engineering and manufacturing
-  image: norsk-hydro.jpg
+  image: hydro.png
   summary: "Hendelsen hos Norsk Hydro involverte et alvorlig angrep av ransomware som lammet selskapets IT-systemer. Angriperne brukte en variant av ransomware kalt LockerGoga, som krevde løsepenger for å gi tilgang til låste data. Norsk Hydro reagerte raskt ved å prioritere åpenhet og informere offentligheten kontinuerlig gjennom hele hendelsen. Dette inkluderte regelmessige oppdateringer til ansatte, kunder og medier for å opprettholde tillit og gjenvinne kontroll over situasjonen."
   reference:
     - https://news.microsoft.com/transform/hackers-hit-norsk-hydro-ransomware-company-responded-transparency
   
 
 - entity: Papirkompaniet
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
-  date: "2019-??-??"
+  date: "2019-07-??"
   sector: Retail & commerce
-  image: papirkompaniet.jpg
+  image: papirkompaniet.png
   summary: "På den 15. juni opplevde Papirkompaniet en alvorlig cybersikkerhetshendelse der de ble målrettet av løsepengevirus. Dette angrepet resulterte i omfattende datakryptering som lammet deres systemer og medførte betydelige driftsforstyrrelser. Løsepengeviruset tvang selskapet til å vurdere betaling av løsepenger for å gjenopprette tilgangen til deres kritiske data. Hendelsen hos Papirkompaniet understreker behovet for robuste sikkerhetsforanstaltninger og beredskapsplaner i bedrifter for å kunne håndtere og motvirke slike avanserte cybertrusler."
   reference:
     - https://www.gjensidige.no/godtforberedt/content/flere-bedrifter-rammes-av-losepengevirus
+    - https://nrkbeta.no/2022/01/17/betalte-hackerne-vi-var-presset-opp-i-et-hjorne/
+    - https://www.byx.digital/aktuelt/papirkompaniet-ble-hacket-slik-sorger-de-for-at-det-ikke-skjer-igjen
   
 - entity: Norvestor
-  incident-type: Business Email Compromise
+  incident-type: Forretnings-e-postkompromiss
   ransomware-type: null
   date: "2020-08-26"
   sector: Banking, insurance, & other financial fields
@@ -44,11 +46,11 @@
     - https://www.dn.no/teknologi/norvestor/hacking/dnb/hackere-stjal-188-eposter-fra-norsk-milliardfond-halvannen-maned-senere-begynte-angrepet-pa-klientene/2-1-998350
   
 - entity: Hurtigruten
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2020-12-14"
   sector: Maritime & shipping
-  image: hurtigruten.jpg
+  image: hurtigruten.png
   summary: "Natt til mandag, 14 desember 2020, ble Hurtigruten rammet av et alvorlig dataangrep med løsepengevirus. Flere av selskapets systemer, inkludert nettsiden og e-postsystemer, ble satt ut av funksjon. IT-direktør Ole-Marius Moe-Helgesen uttalte at hele den globale IT-infrastrukturen var påvirket, og at selskapet jobbet med å isolere effektene av angrepet og begrense skadene. Angrepet illustrerer risikoen alle virksomheter står overfor med slike trusler."
   reference:
     - https://www.digi.no/artikler/angrepet-mot-hurtigruten-personopplysninger-publisert-pa-nett/507475?key=CMhMUUGC
@@ -70,24 +72,24 @@
   ransomware-type: null
   date: "2020-12-??"
   sector: Banking, insurance, & other financial fields
-  summary: "Den 19. februar 2021 ble det kjent at Norges oljefond, ble påvirket av SolarWinds-hacket. Hacket var en del av en større russisk spionasjekampanje som også rammet flere amerikanske føderale byråer og organisasjoner. Fondet lastet ned en skadelig oppdatering fra SolarWinds Orion-programvaren i juli 2020, men implementerte ikke sikkerhetstiltak før i desember, etter at angrepet ble offentlig kjent. Det er ikke indikasjoner på at backdooren faktisk ble utnyttet mot fondet, men de har siden avsluttet sitt forretningsforhold med SolarWinds."
+  summary: "Den 19. februar 2021 ble det kjent at Norges oljefond, ble påvirket av [SolarWinds-hacket](https://www.crowdstrike.com/blog/sunspot-malware-technical-analysis/). Hacket var en del av en større russisk spionasjekampanje som også rammet flere amerikanske føderale byråer og organisasjoner. Fondet lastet ned en skadelig oppdatering fra SolarWinds Orion-programvaren i juli 2020, men implementerte ikke sikkerhetstiltak før i desember, etter at angrepet ble offentlig kjent. Det er ikke indikasjoner på at backdooren faktisk ble utnyttet mot fondet, men de har siden avsluttet sitt forretningsforhold med SolarWinds."
   image: nbim.png
   reference:
     - https://www.dn.no/teknologi/oljefondet/hacking/solarwinds/norways-11179-billion-nok-wealth-fund-affected-by-the-solarwinds-hack/2-1-964180
   
 - entity: GK (Gunner Karlsen)
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Hive
   date: "2021-07-17"
   sector: Engineering and manufacturing
   image: gk.png
-  summary: "Den 17. juli 2021 ble GK Gruppen utsatt for et dataangrep som primært rammet interne systemer. Angrepet, som var et løsepengevirus, resulterte i tyveri av persondata om 3.500 ansatte fra lønnsarkivet i Norge. Dataangrepet ble raskt oppdaget og stoppet. GK har anmeldt hendelsen til politiet og varslet Datatilsynet. Sammen med eksterne sikkerhetseksperter jobber GK med å gjenopprette systemer og informere berørte ansatte om mulige konsekvenser og forebygging mot ID-tyveri."
+  summary: "Den 17. juli 2021 ble GK Gruppen utsatt for løsepengeviruset Hive som primært rammet interne systemer. Dette resulterte i tyveri av persondata om 3.500 ansatte fra lønnsarkivet i Norge. Dataangrepet ble raskt oppdaget og stoppet. GK har anmeldt hendelsen til politiet og varslet Datatilsynet. Sammen med eksterne sikkerhetseksperter jobbet GK med å gjenopprette systemer og informere berørte ansatte om mulige konsekvenser og forebygging mot ID-tyveri."
   reference:
     - https://www.digi.no/artikler/alarmene-hos-gk-gruppen-gikk-pa-lordag-kritiske-persondata-om-3-500-ansatte-er-trolig-pa-avveie/512086
     - https://www.gk.no/siste-nytt/2021/gk-har-blitt-utsatt-for-et-dataangrep
     
 - entity: Volue Technology AS (tidligere Powell)
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Ryuk
   date: "2021-05-05"
   sector: Power and utilities
@@ -97,18 +99,18 @@
     - https://www.volue.com/news/postmortem
 
 - entity: Inocean AS
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: REvil
   date: "2021-07-26"
   sector: Engineering and manufacturing
-  image: inocean.jpg
-  summary: "26 juni 2021 ble det norske ingeniørselskapet Inocean utsatt for et omfattende dataangrep. Hackerne lastet ned 2000 gigabyte med data og truet med å publisere materialet med mindre selskapet betalte et utpressingskrav. Inocean, som arbeider med skips-, offshore- og flytende vindkraftteknologi, tilbakestilte servere og systemer som en beskyttende tiltak. Angriperne, antatt å være den russiske hackergruppen Revil, publiserte trusselbrev på det mørke nettet, og viste til bilder av e-poster, interne dokumenter og tekniske skisser. NSM og Kripos ble involvert i etterforskningen."
+  image: inocean.png
+  summary: "26 juni 2021 ble det norske ingeniørselskapet Inocean utsatt løspengeviruset REvil. Hackerne lastet ned 2000 gigabyte med data og truet med å publisere materialet med mindre selskapet betalte et utpressingskrav. Inocean, som arbeider med skips-, offshore- og flytende vindkraftteknologi, tilbakestilte servere og systemer som en beskyttende tiltak. Angriperne publiserte trusselbrev på det mørke nettet, og viste til bilder av e-poster, interne dokumenter og tekniske skisser. NSM og Kripos ble involvert i etterforskningen."
   reference:
     - https://www.nrk.no/norge/stort-dataangrep-mot-norsk-ingeniorselskap-1.15568171
     - https://www.digi.no/artikler/2000-gigabyte-lastet-ned-norsk-selskap-rammet-av-omfattende-angrep/511832
   
 - entity: Axiell Norge AS
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2021-06-22"
   sector: IT and technology
@@ -118,11 +120,11 @@
     - https://www.digi.no/artikler/biblioteker-over-hele-landet-lammet-av-losepengevirus/511448
 
 - entity: TietoEVRY AS
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2021-02-22"
   sector: IT and technology
-  image: tietoevry.jpg
+  image: tietoevry.png
   summary: "22 februar 2021 ble TietoEVRY rammet av et løsepengevirus som forårsaket tekniske utfordringer for 25 kunder innen detaljhandel, produksjon og tjenesteytende næringer. Angrepet førte til frakobling av berørt infrastruktur og tjenester. TietoEVRY samarbeidet med kundene og partnere for å gjenopprette driften, og rapporterte hendelsen til relevante myndigheter, inkludert NSM og NorCert. Saken ble også meldt til politiet som en alvorlig kriminell handling."
   reference:
     - https://www.digi.no/artikler/tietoevry-viser-apenhet-etter-a-ha-blitt-rammet-av-losepengevirus-derfor-vil-det-ta-tid-a-gjenopprette-berorte-systemer/507326
@@ -130,33 +132,33 @@
   
 
 - entity: Akva Group ASA
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2021-01-10"
   sector: Engineering and manufacturing
-  image: akva-group.png
+  image: akva.png
   summary: "AKVA Group ble utsatt for et cyberangrep 10. januar 2021. Angrepet medførte betydelige kostnader, inkludert 40,7 millioner kroner til tredjepersoner, og totalt tap på 49,7 millioner kroner i første kvartal. Selskapet har hatt eksterne dataspesialister for å gjenopprette data og har angivelig betalt løsepenger i kryptovaluta, ifølge en aksjekommentator i Dagens Næringsliv."
   reference:
     - https://e24.no/boers-og-finans/i/jBO2ae/dataangripere-krever-loesepenger-av-akva-group
 
 
 - entity: Østre Toten kommune
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: PYSA
   date: "2021-01-09"
   sector: Government
-  image: ostre-toten.png
-  summary: "Østre Toten kommune ble rammet av et dataangrep 9. januar 2021, som gjorde alle fagsystemer utilgjengelige og påvirket hele kommunens virksomhet. Kommunen får nå 16 millioner kroner i skjønnsmidler for å dekke deler av utgiftene knyttet til gjenopprettelse av IKT-driften, gjenskaping av datasystemer og implementering av sikkerhetstiltak etter angrepet. Kompensasjonen er ment å sikre at tjenestene til innbyggerne ikke blir påvirket negativt av kostnadene forårsaket av angrepet."
+  image: ostre-toten-kommune.png
+  summary: "Østre Toten kommune ble rammet av løspengeviruset PYSA den 9. januar 2021, som gjorde alle fagsystemer utilgjengelige og påvirket hele kommunens virksomhet. Kommunen får nå 16 millioner kroner i skjønnsmidler for å dekke deler av utgiftene knyttet til gjenopprettelse av IKT-driften, gjenskaping av datasystemer og implementering av sikkerhetstiltak etter angrepet. Kompensasjonen er ment å sikre at tjenestene til innbyggerne ikke blir påvirket negativt av kostnadene forårsaket av angrepet."
   reference:
     -  https://www.regjeringen.no/no/aktuelt/16-millioner-kroner-til-ostre-toten-etter-dataangrep-i-januar-2021/id2892730/
 
 - entity: Sullestad
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Prometheus
   date: "2021-05-27"
   sector: Retail & commerce
   image: sullestad.png
-  summary: todo
+  summary: "27 mai 2021 ble Sullestad rammet av løsepengeviruset Prometheus, som krypterte alt innhold på nettverket i løpet av 25 minutter. Angriperne utnyttet en sårbarhet i Fortigate-brannmurer (CVE-2018-13379), som tillot dem å hente ut brukernavn og passord fra tidligere SSLVPN-klienter i klartekst."
   reference:
     - https://hacknotice.com/2021/05/27/sullestad/
     - https://www.nsr-org.no/uploads/images/Digitalt-situasjonsbilde-K-CSIRT-no.2-2021.pdf
@@ -164,24 +166,24 @@
     - https://gist.githubusercontent.com/crypto-cypher/f216d6fa4816ffa93c5270b001dc4bdc/raw/21f009369aacdeec0f94f6fa100542838b8600c1/fortinet_victim_list_2021.txt
 
 - entity: Våpensmia
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Prometheus
   date: "2021-05-29"
   sector: Retail & commerce
-  image: vaapensmia.jpg
-  summary: todo
+  image: vaapensmia.png
+  summary: "29 mai 2021 ble Våpensmia rammet av løsepengeviruset Prometheus, som krypterte alt innhold på nettverket i løpet av 25 minutter. Angriperne utnyttet en sårbarhet i Fortigate-brannmurer (CVE-2018-13379), som tillot dem å hente ut brukernavn og passord fra tidligere SSLVPN-klienter i klartekst."
   reference:
     - https://hacknotice.com/2021/05/29/vapensmia-as/
     - https://www.nsr-org.no/uploads/images/Digitalt-situasjonsbilde-K-CSIRT-no.2-2021.pdf
     - https://www.digi.no/artikler/lynraske-hackere-slo-til-mot-tre-norske-bedrifter-inn-og-ut-ferdig-kryptert-pa-25-minutter/511013
 
 - entity: Archus
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Prometheus
   date: "2021-05-27"
   sector: Professional services
   image: archus.jpg
-  summary: todo
+  summary: "27 mai 2021 ble Archus rammet av løsepengeviruset Prometheus, som krypterte alt innhold på nettverket i løpet av 25 minutter. Angriperne utnyttet en sårbarhet i Fortigate-brannmurer (CVE-2018-13379), som tillot dem å hente ut brukernavn og passord fra tidligere SSLVPN-klienter i klartekst."
   reference:
     - https://hacknotice.com/2021/05/27/archus/
     - https://www.nsr-org.no/uploads/images/Digitalt-situasjonsbilde-K-CSIRT-no.2-2021.pdf
@@ -189,70 +191,67 @@
     - https://gist.githubusercontent.com/crypto-cypher/f216d6fa4816ffa93c5270b001dc4bdc/raw/21f009369aacdeec0f94f6fa100542838b8600c1/fortinet_victim_list_2021.txt
 
 - entity: Norsvin
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2021-11-05"
   sector: Retail & commerce
   image: norsvin.png
-  summary: todo
+  summary: "5 november 2021 ble Norsvin rammet av et løsepengevirus som førte til nedstenging av selskapets datasystemer. Hackerne hevdet å ha gjort data utilgjengelige og krevde løsepenger. Selskapet nektet å betale, da de hadde sikkerhetskopier. Selv om e-post og ordresystemer ble påvirket, fortsatte produksjonen som normalt uten store forstyrrelser. Det er usikkert om inntrengerne fikk tilgang til sensitive data, men ingen kritisk informasjon ble kompromittert."
   reference:
     - https://e24.no/naeringsliv/i/47rmpR/norsvin-rammet-av-loesepengevirus
-    - https://norsvin.no/norsvin-utsatt-for-data-angrep/
     - https://www.digi.no/artikler/norsvin-rammet-av-losepengevirus/514970
-    - https://www.nationen.no/nyhet/norsvin-er-utsatt-for-losepengevirus/
 
 - entity: Tromsø kommune
-  incident-type: Phishing, Credential Theft
+  incident-type: Forretnings-e-postkompromiss
   ransomware-type: null
   date: "2021-06-15"
   sector: Government
   image: tromso-kommune.png
-  summary: todo
+  summary: "15 juni 2021 ble Tromsø kommune utsatt for et cyberangrep hvor en ansatts e-postkonto ble kompromittert, og 15.000 phishing-e-poster ble forsøkt sendt ut. Disse e-postene inneholdt lenker til falske innloggingssider med kommunens logo, og det er mistanke om at angriperne var ute etter brukernavn og passord. IT-sjef Marita Tiller kunne ikke utelukke at sensitiv informasjon kan være på avveie, selv om dette foreløpig ikke er bekreftet. Kommunen vurderer å innføre strengere sikkerhetstiltak som to-faktor autentisering for å forhindre fremtidige angrep."
   reference:
     - https://www.nrk.no/tromsogfinnmark/tromso-kommune-utsatt-for-cyberangrep_-_-kan-ikke-utelukke-at-sensitiv-informasjon-er-pa-avveie-1.15539405
     - https://www.nrk.no/tromsogfinnmark/hjemmekontor-forer-til-flere-og-dyrere-dataangrep-1.15598287
 
-- entity: Helgelands blad
-  incident-type: Ransomware
+- entity: Helgelands Blad
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2021-09-24"
   sector: Media and broadcasting
   image: helgelands-blad.png
-  summary: todo
+  summary: "28 september 2021 ble Helgelands Blad utsatt for et hackerangrep som førte til at avisen ikke kunne gi ut sin papiravis for første gang siden krigen. Angrepet kom fra en russisk IP-adresse, og et såkalt løsepengevirus krypterte avisens servere. Dette førte til at systemet deres begynte å kreve inn abonnementsbetalinger flere ganger fra kunder. Avisen har kontaktet Kripos og Nasjonal sikkerhetsmyndighet for å håndtere hendelsen."
   reference:
     - https://www.nrk.no/nordland/norsk-lokalavis-ble-hacket-_-systemet-begynte-a-kreve-inn-penger-1.15668183
 
 - entity: Sporveien
-  incident-type: Phishing, Credential Theft
+  incident-type: Forretnings-e-postkompromiss
   ransomware-type:
   date: "2021-06-??"
   sector: Logistics and hospitality
-  image: sporveien.jpg
-  summary: todo
+  image: sporveien.png
+  summary: 'Juni 2021 ble Sporveien utsatt for et datainnbrudd. På grunn av "for lite informasjon og loggføring" til å kunne understøtte en etterforskning, ble ikke saken politianmeldt.'
   reference:
     - https://www.digi.no/artikler/sporveien-utsatt-for-datainnbrudd/513594?key=pTlZWlco
 
 - entity: Nordlo
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: CryptoLocker
   date: "2021-04-22"
   sector: IT and technology
   image: nordlo.png
-  summary: todo
+  summary: "21. april 2021 ble IT-selskapet Nordlo utsatt for et cyberangrep hvor hackere fra Østerrike og Taiwan fikk tilgang til en kundes brukerkonto via phishing. Angrepet resulterte i et krav om 60 millioner kroner i løsepenger. Tre av Nordlos kunder mistet tilgang til sine systemer og krevde erstatning for sine tap, men retten mente Nordlo ikke var grovt uaktsom og frifant dem."
   reference:
     - https://www.digi.no/artikler/it-leverandor-i-haugesund-slatt-ut-av-kryptovirus-rammer-mange-kunder/509517?key=JAF061H4
     - https://www.nrk.no/rogaland/saksokte-eget-it-selskap-etter-hackerangrep-1.16576138
     
 - entity: Drammen kommune
-  incident-type: null
+  incident-type: Ukjent
   ransomware-type: null
   date: "2021-02-??"
   sector: Government
   image: drammen-kommune.png
-  summary: todo
+  summary: "I februar 2021 ble Drammen kommune utsatt for et hackerangrep mot deler av infrastrukturen for vann og avløp. Politiet har startet en etterforskning av saken."
   reference:
     - https://www.digi.no/artikler/politiet-etterforsker-hackerangrep-mot-vann-og-avlop-i-drammen-kommune/507111?key=In280qFS
-    - https://www.drammen.kommune.no/om-kommunen/aktuelt/hackerangrep/
     - https://www.digi.no/artikler/drammen-kommune-har-fjernet-sarbarhet-som-tillot-avlops-hacking/509172
 
 - entity: Stortinget
@@ -260,8 +259,8 @@
   ransomware-type: null
   date: "2021-02-15"
   sector: Government
-  image: stortinget.jpg
-  summary: todo
+  image: stortinget.png
+  summary: "10 februar 2021 ble Stortinget utsatt for et dataangrep hvor sårbarheter i Microsoft Exchange ble utnyttet. Angrepet ble oppdaget etter unormal trafikk ble varslet av Nasjonal sikkerhetsmyndighet (NSM). Data ble hentet ut, men omfanget er fortsatt uavklart. Tiltak som passordendringer for ansatte og representanter ble iverksatt."
   reference:
     - https://www.aftenposten.no/norge/i/G304k9/to-dataangrep-paa-tre-uker-paa-stortinget-kontaktnettverk-norske-stand
     - https://www.nrk.no/norge/stortinget-utsett-for-nytt-dataangrep-1.15411279
@@ -272,7 +271,7 @@
   date: "2021-03-04"
   sector: Logistics and hospitality
   image: atb.png
-  summary: todo
+  summary: "4 mars 2021 ble det avslørt at det trønderske kollektivselskapet AtB var blant de mange norske virksomhetene som var rammet av et sikkerhetsbrudd i Microsoft Exchange-servere. Sikkerhetshullet gjorde det mulig for angripere å legge igjen en bakdør i AtBs e-postsystem, som kunne ha gitt tilgang til selskapets e-poster. AtB ble kompromittert 4. mars, men tiltak ble iverksatt for å stanse utnyttelsen av sårbarheten, og e-postløsningen ble oppdatert 8. mars"
   reference:
     - https://nrkbeta.no/2021/03/09/microsoft-exchange-la-igjen-bakdor-hos-trondersk-kollektivselskap/
     - https://www.nrk.no/nyheter/it-angrep-mot-stortinget-1.15143577
@@ -284,9 +283,9 @@
   ransomware-type: null
   date: "2021-03-09"
   sector: Government
-  image: oksnes-kommune.jpg
+  image: oksnes-kommune.png
+  summary: "9 mars 2021 ble Øksnes kommune rammet av et omfattende dataangrep. Ukjente aktører utnyttet en sårbarhet i Exchange-serveren for å få tilgang. Angrepet påførte kommunen en kostnad på rundt én million kroner."
   reference:
-    - https://khrono.no/hogskolen-i-ostfold-stenger-e-post/561284
     - https://www.oksnes.kommune.no/aktuelt/oksnes-kommune-utsatt-for-hacker-angrep.4107.aspx
 
 - entity: Høgskolen i Østfold
@@ -294,8 +293,8 @@
   ransomware-type: null
   date: "2021-03-09"
   sector: Education
-  image: hogskolen-i-ostfold.jpg
-  summary: todo
+  image: hogskolen-i-ostfold.png
+  summary: "9 mars 2021 måtte Høgskolen i Østfold stenge sin e-posttjeneste på grunn av sårbarheter i Microsoft Exchange-servere som ble utnyttet i et verdensomspennende angrep. Nasjonal Sikkerhetsmyndighet (NSM) varslet om sårbarhetene. Høgskolen samarbeidet med innleide sikkerhetseksperter for å sikre systemene, og e-posttjenesten ble stengt mens dette arbeidet pågikk. Dette påvirket både ansatte og studenter, som måtte bruke alternative kommunikasjonsmetoder som Teams og Canvas."
   reference:
     - https://khrono.no/hogskolen-i-ostfold-stenger-e-post/561284
     - https://www.hiof.no/tjenester/it/aktuelt/aktuelt-it-tjenester/e-post-stenges.html?fbclid=IwAR11m6qeSsY_xi4WAWd_zm4RLBZ7
@@ -306,7 +305,7 @@
   date: "2021-03-??"
   sector: Government
   image: oslo-bystyresekretariat.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.nettavisen.no/nyheter/innenriks/oslo-radhus-utsatt-for-dataangrep/s/12-95-3424105372
 
@@ -316,7 +315,7 @@
   date: "2021-03-??"
   sector: Government
   image: sandnes-kommune.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.aftenbladet.no/lokalt/i/PRnxK0/sandnes-kommune-har-stengt-e-post-funksjon-for-aa-unngaa-dataangrep
 
@@ -327,18 +326,18 @@
   date: "2021-10-19"
   sector: Education
   image: uit.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.nordlys.no/uit-utsatt-for-dataangrep-26-000-kontoer-ma-endre-passord/s/5-34-1533282
     - https://khrono.no/uit-utsatt-for-dataangrep--26000-brukere-ma-endre-passord/622522
 
 - entity: Radio Nordkapp
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2021-09-07"
   sector: Media and broadcasting
-  image: radionordkapp.jpg
-  summary: todo
+  image: radionordkapp.png
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.radionordkapp.no/nyheter/17307/radio-nordkapp-angrepet/
     - https://www.lokalradio.no/nyheter/radionyheter/radio-nordkapp-angrepet-av-hackere-21881/
@@ -351,28 +350,28 @@
   ransomware-type: null
   date: "2021-01-??"
   sector: Government
-  image: jobbnorge.jpg
-  summary: todo
+  image: jobbnorge.png
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.aftenposten.no/norge/i/41mX3e/hackerangrep-mot-soekere-til-uds-aspirantkurs-kan-misbrukes-av-fremmed
 
 - entity: Finn
-  incident-type: Breach
+  incident-type: Datainnbrudd
   ransomware-type: null
   date: "2021-11-22"
   sector: Retail & commerce
   image: finn.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.digi.no/artikler/hentet-passord-fra-offentlig-liste-finn-no-stoppet-ikke-noen-av-de-44-000-paloggingsforsokene/516887?key=JoAJX1vu
 
 - entity: Nordic Choice Hotels
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Conti
   date: "2021-12-02"
   sector: Logistics and hospitality
   image: nordic-choice-hotels.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.digi.no/artikler/hackingen-av-nordic-choice-kundeinformasjon-kan-vaere-pa-avveie/515648
     - https://www.digi.no/artikler/dette-er-trusselaktoren-som-hacket-nordic-choice-slik-opptrer-banden/515566
@@ -383,27 +382,27 @@
   date: "2021-??-??"
   sector: null
   image: marinelektronikk.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://aledata.no/aktuelt/opplevde-dataangrep-du-er-sa-hjelpelos/
 
 - entity: Glamox
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Conti
   date: "2021-12-??"
   sector: Engineering and manufacturing
   image: glamox.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.digi.no/artikler/glamox-angrepet-av-samme-trusselaktor-som-hacket-nordic-choice/515668
 
 - entity: Leirvik
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2021-12-19"
   sector: Engineering and manufacturing
   image: leirvik.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.h-avis.no/slatt-ut-av-dataangrep/s/5-62-1147704
     - https://www.buildingsupply.no/article/view/779085/leirvik_hacket_itsystemer_ble_slatt_ut_fikk_losepengekrav
@@ -414,7 +413,7 @@
   date: "2021-02-25"
   sector: Government
   image: skien-kommune.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.skien.kommune.no/aktuelt/e-post-hacket-i-skien-kommune/
     - http://www.skien.kommune.no/aktuelt/slik-jobbet-hackerne2/
@@ -425,103 +424,106 @@
   date: "2021-03-19"
   sector: Government
   image: as-kommune.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.oblad.no/ansatt-i-kommunen-ble-hacket-og-sendte-ut-haugevis-av-falske-e-poster-slike-angrep-er-stadig-mer-utspekulerte/s/5-68-985338
 
-- entity: Fremskrittspartiet 
+- entity: Fremskrittspartiet (FrP)
   incident-type: DDoS
   ransomware-type: null
   date: "2021-09-09"
   sector: Government
   image: frp.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.frp.no/nyheter/frp-no-utsatt-for-dataangrep
     - https://www.abcnyheter.no/nyheter/norge/2021/09/09/195786257/fremskrittspartiet-utsatt-for-dataangrep
 
 - entity: CompuGroupMedical (CGM)
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Lockbit 2.0
   date: "2021-12-??"
   sector: Healthcare
   image: cgm.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.cgm.com/corp_en/magazine/articles/emergency-note/technical-failure.html
     - https://www.smaalenene.no/frykter-losepengevirus-derfor-er-it-systemene-stengt-i-kommunen/s/5-38-1084290
     - https://twitter.com/gossithedog/status/1474696244652040193
 
 - entity: Nortura
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2021-12-??"
   sector: Retail & commerce
   image: nortura.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.nortura.no/nyheter/nortura-er-utsatt-for-et-dataangrep
     - https://e24.no/teknologi/i/bGaa2l/nortura-utsatt-for-dataangrep
 
 - entity: Nordland fylkeskommune
-  incident-type: null
+  incident-type: Skadevare
   ransomware-type: null
-  date: "2021-12-??"
+  date: "2021-12-23"
   sector: Government
   image: nordland-fylkeskommune.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.facebook.com/story.php?story_fbid=4638229886213942&id=146602872043355
     - https://www.nrk.no/nordland/dataangrep_-vgs-elever-ma-finne-fram-penn-og-papir-1.15793562
+    - https://www.nrk.no/nordland/dataangrep-rammer-nordland-fylkeskommune-1.15789412
 
 - entity: Amedia
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Hive
   date: "2021-12-28"
   sector: Media and broadcasting
+  image: amedia.png
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.nrk.no/nyheter/amedia-utsatt-for-dataangrep-1.15788529
     - https://www.vg.no/nyheter/innenriks/i/34X8jd/hackernes-beskjed-til-amedia-viktige-dokumenter-er-klare-til-aa-avsloeres
     - https://www.amedia.no/dataangrep/item/28-juni-2022-oppdatering-om-dataangrepet-mot-amedia
 
 - entity: Hasås (tidligere Eikås Sagbruk)
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2021-12-??"
   sector: Engineering and manufacturing
   image: hasas.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.lister24.no/nyheter/i/8Q70ew/hackere-krever-loesepenger-av-sagbruk
 
 - entity: TechHotel Norge AS
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2021-06-??"
   sector: IT and technology
   image: techotel.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.digi.no/artikler/betaling-loste-ikke-alle-losepengeproblemer/511392
 
 - entity: CoreTrek AS
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2021-11-16"
   sector: IT and technology
-  image: coretek.png
-  summary: todo
+  image: coretrek.png
+  summary: Oppsummering kommer snart...
   reference:
     - Datatilsynet
     - Innsyn
 
 - entity: Helly Hansen
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2021-04-21"
   sector: Retail & commerce
   image: hh.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://nrkbeta.no/2022/03/01/helly-hansen-ble-offer-for-digitale-utpressere/
 
@@ -531,49 +533,49 @@
   date: "2021-01-12"
   sector: Engineering and manufacturing
   image: nordan.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.nordan.no/dataangrep/
     - https://nordangruppen.no/en/group/news/databreach
 
 - entity: Åge Nilsen
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: LockBit 2.0
   date: "2022-05-??"
   sector: Engineering and manufacturing
   image: age-nilsen.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - LockBit DLS
     - https://www.tv2.no/a/14804271/
 
 - entity: Magnar Eikeland Kontorutstyr
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: LockBit 2.0
   date: "2022-04-18"
   sector: Retail & commerce
-  image: magnar-eikland.png
-  summary: todo
+  image: magnar-eikeland.png
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.aftenposten.no/norge/i/Or9KxV/tre-norske-bedrifter-rammet-av-hackere-alle-printerne-vaare-spydde-ut-ark-om-loesepengevirusangrep
 
 - entity: Imenco 
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Conti
   date: "2022-03-??"
   sector: Engineering and manufacturing
   image: imenco.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - Conti DLS
 
 - entity: Norkart
-  incident-type: Breach
+  incident-type: Datainnbrudd
   ransomware-type: null
   date: "2022-05-05"
   sector: Professional services
   image: norkart.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.nrk.no/norge/dataangrep-mot-norkart_-3_3-millioner-kan-vaere-berort-1.15962268
     - https://www.dagbladet.no/studio/nyhetsstudio/5?post=93561
@@ -584,75 +586,75 @@
   date: "2022-02-02"
   sector: IT and technology
   image: aquabyte.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://salmonbusiness.com/aquabyte-hit-by-hacker-attacks/
 
 - entity: Eltek (et merke av Delta Electronics)
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Conti
   date: "2022-01-20"
   sector: Engineering and manufacturing
   image: eltek.png
-  summary: todo
-  reference: https://tw.stock.yahoo.com/news/%E5%8F%B0%E9%81%94%E9%9B%BB%E4%BC%BA%E6%9C%8D%E5%99%A8%E9%81%AD%E9%A7%AD-%E9%83%A8%E5%88%86%E7%B3%BB%E7%B5%B1%E5%9B%9E%E5%BE%A9%E9%81%8B%E4%BD%9C%E4%BC%B0%E7%84%A1%E9%87%8D%E5%A4%A7%E5%BD%B1%E9%9F%BF-064423485.html
+  summary: Oppsummering kommer snart...
+  reference:
+    - https://tw.stock.yahoo.com/news/%E5%8F%B0%E9%81%94%E9%9B%BB%E4%BC%BA%E6%9C%8D%E5%99%A8%E9%81%AD%E9%A7%AD-%E9%83%A8%E5%88%86%E7%B3%BB%E7%B5%B1%E5%9B%9E%E5%BE%A9%E9%81%8B%E4%BD%9C%E4%BC%B0%E7%84%A1%E9%87%8D%E5%A4%A7%E5%BD%B1%E9%9F%BF-064423485.html
 
 - entity: Mensa
-  incident-type: Breach
+  incident-type: Datainnbrudd
   ransomware-type: null
   date: "2022-06-22"
   sector: Other
   image: mensa.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.digi.no/artikler/mensa-utsatt-for-hackerangrep/520652
 
 - entity: ElementNOR AS
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: LockBit 3.0
   date: "2022-09-??"
   sector: Engineering and manufacturing
   image: elementnor.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - LockBit DLS
     - https://www.digi.no/artikler/industribedrift-i-balsfjord-utpekt-som-offer-for-losepengevirus/522390/ 
 
-
 - entity: Domeneshop AS
-  incident-type: Breach
+  incident-type: Datainnbrudd
   ransomware-type: null
   date: "2022-10-17"
   sector: IT and technology
   image: domeneshop.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://e24.no/teknologi/i/mQQv1l/datainnbrudd-hos-domeneshop-300000-passord-paa-avveie
     - https://domene.shop/status?id=930
 
 - entity: REC Silicon
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Ransomexx
   date: "2022-??-??"
   sector: Engineering and manufacturing
   image: recsilicon.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.dn.no/bors/rec-silicon/oslo-bors/rec-silicon-rammet-av-hackerangrep/2-1-1376201
     - https://www.digi.no/artikler/172-gigabyte-med-stjalne-data-fra-rec-silicon-lagt-ut-pa-nettet/524472
 
 - entity: Stangeland Maskin
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2022-12-15"
   sector: Engineering and manufacturing
-  image: stangeland.jpg
-  summary: todo
+  image: stangeland.png
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.nrk.no/rogaland/hackere-krever-losepenger-av-stangeland-maskin-1.16231333
 
 - entity: Vitec Autosystemer
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2022-12-??"
   sector: Other
@@ -660,12 +662,12 @@
   reference: https://www.motorbransjen.no/subscriber/showArticle.aspx?articleID=7775
 
 - entity: Det Norsk Veritas (DNV)
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2023-01-07"
   sector: Maritime & shipping
   image: dnv.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://theloadstar.com/cyber-attack-on-dnv-impacts-6000-vessels-using-shipmanager-software/
     - https://www.dnv.com/news/cyber-attack-on-shipmanager-servers-update-237931
@@ -675,8 +677,8 @@
   ransomware-type: null
   date: "2023-02-02"
   sector: Government
-  image: vadso-kommune.jpg
-  summary: todo
+  image: vadso-kommune.png
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.facebook.com/vadsokommune/posts/669762418277010
     - https://telenorsoc.blogspot.com/2023/03/oppsummering-av-nyhetsbildet-innen.html
@@ -687,27 +689,27 @@
   date: "2023-02-03"
   sector: Government
   image: malselv-kommune.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://telenorsoc.blogspot.com/2023/03/oppsummering-av-nyhetsbildet-innen.html
 
 - entity: Egas Sport
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: LockBit 3.0
   date: "2023-03-??"
   sector: Retail & commerce
   image: egas-sport.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - LockBit DLS
 
 - entity: Kristent Arbeid Blandt Blinde og Svaksynte (KABB)
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2023-02-25"
   sector: Other
   image: kabb.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.kabb.no/KABB-Nytt/data-angrep-mot-kabb/
 
@@ -717,22 +719,22 @@
   date: "2023-02-08"
   sector: Government
   image: sor-varanger-kommune.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.sor-varanger.kommune.no/pressemelding-soer-varanger-kommune-utsatt-for-dataangrep.6584858-17830.html
 
-- entity: United European Car Carriers (EUCC)
-  incident-type:  Ransomware
+- entity: United European Car Carriers (UECC)
+  incident-type:  Løsepengevirus
   ransomware-type: Play
   date: "2023-04-??"
   sector: Maritime & shipping
   image: uecc.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.redpacketsecurity.com/play-ransomware-victim-uecc/
 
 - entity: Helios Auto
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2023-05-??"
   sector: Other
@@ -741,43 +743,43 @@
     - https://www.digi.no/artikler/utsatt-for-losepenge-angrep-onsker-ingen-kontakt-med-angriperne/531722
 
 - entity: PRA Group Norge AS
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Cl0p
   date: "2023-06-??"
   sector: Banking, insurance, & other financial fields 
   image: pra-group.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://github.com/curated-intel/MOVEit-Transfer
     - https://www.digi.no/artikler/personinfo-fra-norsk-inkassofirma-kan-vaere-pa-avveie-etter-gigantisk-losepengeangrep/533245
 
 - entity: E. A. Smith
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: AlphVM
   date: "2023-06-??"
   sector: Engineering and manufacturing
   image: e-a-smith.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.adressa.no/nyhetsstudio/i/LlXkOV/trondheimsbedrift-rammet-av-datainnbrudd
 
 - entity: Tomra
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2023-06-??"
   sector: Engineering and manufacturing
   image: tomra.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.tomra.com/news-and-media/news/2023/tomras-swift-response-paves-the-way-for-normalization-after-cyberattack
 
 - entity: Abacus IT AS
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2023-09-??"
   sector: IT and technology
   image: abacus.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.digi.no/artikler/abacus-it-rammet-av-losepengevirus/537350?key=xLWEJpzY
 
@@ -787,7 +789,7 @@
   date: "2023-09-??"
   sector: Logistics and hospitality
   image: boreal.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.dagbladet.no/studio/nyhetsstudio/5?post=146347
 
@@ -797,7 +799,7 @@
   date: "2023-06-??"
   sector: Government
   image: dss.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.regjeringen.no/no/aktuelt/presseinvitasjon/id2990098/
 
@@ -807,37 +809,37 @@
   date: "2023-08-??"
   sector: Engineering and manufacturing
   image: kongsberg.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.dn.no/teknologi/kongsberg-maritime/hacking/linkedin/kongsberg-ingeniorer-lokket-med-attraktive-jobbtilbud-som-inneholdt-spionvare/2-1-1503873
 
 - entity: Inventum Øst
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Akira
   date: "2023-10-??"
   sector: IT and technology
   image: inventum.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.digi.no/artikler/har-permittert-alle-ansatte-etter-angrep-pa-it-leverandor-vi-er-sjakk-matt/538056?key=w48WE4Mi
 
 - entity: IKM Gruppen AS
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: AlphVM
   date: "2023-10-??"
   sector: Oil & gas
   image: ikm.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.nrk.no/nyheter/norsk-konsern-bekrefter-utpressingsforsok-1.16591025
 
 - entity: Norgeshus
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2023-11-03"
   sector: null
   image: norgeshus.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.digi.no/artikler/intervju-hackere-slo-til-mot-norgeshus-sa-ble-tilgangen-solgt-videre-forst-etter-en-maned-gikk-systemene-ned-for-telling/546244
 
@@ -847,27 +849,27 @@
   date: "2023-11-21"
   sector: Other 
   image: martinique.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.digi.no/artikler/hackergruppe-truer-bar-i-stavanger/540066
 
 - entity: Interfil
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2023-11-25"
   sector: Engineering and manufacturing
   image: interfil.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.digi.no/artikler/losepengeangrep-sensitive-fortrolige-eller-private-opplysninger-kan-vaere-eksponert/541509
 
 - entity: Nettdrift AS
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2023-12-16"
   sector: IT and technology
   image: nettdrift.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.aftenbladet.no/okonomi/i/8Jy9ax/flere-bedrifter-utsatt-for-dataangrep-svaert-sofistikert
 
@@ -877,134 +879,134 @@
   date: "2023-12-10"
   sector: null
   image: easypark.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.easypark.com/no-no/comm
 
 - entity: ITO PallPack Gruppen AS
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Akira
   date: "2024-01-09"
   sector: Engineering and manufacturing
   image: ito-pallpack.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - Akira DLS
 
 - entity: Hotel Continental
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Qilin
   date: "2024-01-12"
   sector: Logistics and hospitality
   image: hotel-continental.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - Qilin DLS
 
 - entity: TietoEVRY AS - Moelven
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Akira
   date: "2024-01-19"
   sector: null
-  image: tietoevry.jpg
-  summary: todo
+  image: tietoevry.png
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.digi.no/artikler/tietoevry-har-mottatt-krav-om-losepenger/542656
     - https://www.digi.no/artikler/tietoevry-angrepet-moelven-satte-krisestab-og-stengte-linjene/542666
 
 - entity: TietoEVRY AS - Rusta
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Akira
   date: "2024-01-19"
   sector: null
-  image: tietoevry.jpg
-  summary: todo
+  image: tietoevry.png
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.digi.no/artikler/svenske-riksdagen-rammet-av-hacker-angrepet-veldig-alvorlig/542763
 
 
 - entity: TietoEVRY AS - Stadium
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Akira
   date: "2024-01-19"
   sector: null
-  image: tietoevry.jpg
-  summary: todo
+  image: tietoevry.png
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.digi.no/artikler/svenske-riksdagen-rammet-av-hacker-angrepet-veldig-alvorlig/542763
 
 
 - entity: TietoEVRY AS
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Akira
   date: "2024-01-19"
   sector: null
-  image: tietoevry.jpg
-  summary: todo
+  image: tietoevry.png
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.digi.no/artikler/tietoevry-har-mottatt-krav-om-losepenger/542656
     - https://www.tietoevry.com/en/newsroom/all-news-and-releases/other-news/2024/01/mim-jan-20/
 
 
 - entity: Norske Boligbyggelag (NBBL)
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: 8BASE
   date: "2024-01-21"
   sector: null
   image: nbbl.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.nbbl.no/aktuelt/25-01-2024-nbbl-er-rammet-av-dataangrep/
 
 - entity: Tax Free Norway
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: null
   date: "2024-01-25"
   sector: null
   image: taxfree-norway.jpg
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - https://www.tax-free.no/no/dataangrep
     - https://flysmart24.no/2024/01/25/taxfree-selskapets-nettside-stengt-etter-data-angrep/
     - https://www.vg.no/nyheter/innenriks/i/mQG0vE/krevd-for-loesepenger-etter-dataangrep
 
 - entity: Avant IT
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: RansomHub
   date: "2024-03-28"
   sector: IT and technology
   image: avant-it.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - RansomHub DLS
 
 - entity: Eurosko
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Lockbit 3.0
   date: "2024-04-19"
   sector: Retail & commerce
-  image: eurosko.jpg
-  summary: todo
+  image: eurosko.png
+  summary: Oppsummering kommer snart...
   reference:
     - Lockbit DLS
 
 - entity: Fire Fighting Systems AS
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: Space Bears
   date: "2024-04-28"
   sector: Retail & commerce
   image: ffs.png
-  summary: todo
+  summary: Oppsummering kommer snart...
   reference:
     - Space Bears DLS
 
 - entity: Sigmund Espeland AS
-  incident-type: Ransomware
+  incident-type: Løsepengevirus
   ransomware-type: 8BASE
   date: "2024-05-13"
   sector: Retail & commerce
-  image: espeland.jpg
-  summary: todo
+  image: espeland.png
+  summary: Oppsummering kommer snart...
   reference:
     - 8BASE DLS
     - hxxp://xb6q2aggycmlcrjtbjendcnnwpmmwbosqaugxsqb4nx6cmod3emy7sad.onion/company/7890442

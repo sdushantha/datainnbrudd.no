@@ -63,12 +63,12 @@ mode: 'wide'
 ---
 
 <Frame>
-<img src="/images/{image}" />
+<img src="/images/{image}" noZoom/>
 </Frame>
 
 {summary}
 
-<sup><i>Oppsummeringen er laget av en KI-tjeneste fra OpenAI. Innholdet er kvalitetssikret før publisering</i></sup>
+<sup><i>Oppsummeringen er laget av en KI-tjeneste fra OpenAI basert på kildene nedenfor. Innholdet er kvalitetssikret før publisering.</i></sup>
 
 ## Kilder
 {references}
@@ -78,7 +78,7 @@ mode: 'wide'
     ransomware_type = item.get('ransomware-type')
     if ransomware_type:
         url = ransomware_type_info_data.get(ransomware_type)
-        incident_type = f"Ransomware ([{ransomware_type}]({url}))"
+        incident_type = f"Løsepengevirus ([{ransomware_type}]({url}))"
     
     filename = f"{entity_clean}-{date.replace('??', 'NA')}.mdx"
     markdown_table += f"| {date} | [{entity}]({victim_dir}/{filename.replace(".mdx", "")}) | {incident_type} |\n"
