@@ -441,7 +441,7 @@
 
 - entity: CompuGroupMedical (CGM)
   incident-type: Løsepengevirus
-  ransomware-type: Lockbit 2.0
+  ransomware-type: LockBit 2.0
   date: "2021-12-??"
   sector: Healthcare
   image: cgm.png
@@ -844,7 +844,7 @@
     - https://www.digi.no/artikler/intervju-hackere-slo-til-mot-norgeshus-sa-ble-tilgangen-solgt-videre-forst-etter-en-maned-gikk-systemene-ned-for-telling/546244
 
 - entity: Martinique AS
-  incident-type: Lockbit
+  incident-type: LockBit 3.0
   ransomware-type: null
   date: "2023-11-21"
   sector: Other 
@@ -982,7 +982,7 @@
 
 - entity: Eurosko
   incident-type: Løsepengevirus
-  ransomware-type: Lockbit 3.0
+  ransomware-type: LockBit 3.0
   date: "2024-04-19"
   sector: Retail & commerce
   image: eurosko.png
