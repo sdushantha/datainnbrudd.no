@@ -1062,6 +1062,7 @@
   summary: Den 28. april 2024 ble Fire Fighting Systems AS sine systemer rammet av løspengeviruset Space Bears.
   reference:
     - Space Bears DLS
+    - https://www.digi.no/artikler/ble-utsatt-for-angrep-det-var-noen-hyggelige-hackere/546486
 
 - entity: Sigmund Espeland AS
   incident-type: Løsepengevirus
