@@ -51,3 +51,24 @@
   reference:
     - https://www.tv2.no/direkte/jpybz/siste-nytt/63d51463bd350e3fa3e47cf9
     - https://www.kode24.no/artikkel/helgens-ddos-angrep-handlet-forst-og-fremst-om-a-skape-oppmerksomhet-mer-en-irritasjon/78357345
+
+- entity: CoreTrek AS
+  incident-type: Løsepengevirus
+  incident-context: null
+  date: "2021-11-16"
+  sector: IT and technology
+  image: coretrek.png
+  summary: Oppsummering kommer snart...
+  reference:
+    - Datatilsynet
+    - Innsyn
+
+- entity: Eltek (et merke av Delta Electronics)
+  incident-type: Løsepengevirus
+  incident-context: Conti
+  date: "2022-01-20"
+  sector: Engineering and manufacturing
+  image: eltek.png
+  summary: Oppsummering kommer snart...
+  reference:
+    - https://tw.stock.yahoo.com/news/%E5%8F%B0%E9%81%94%E9%9B%BB%E4%BC%BA%E6%9C%8D%E5%99%A8%E9%81%AD%E9%A7%AD-%E9%83%A8%E5%88%86%E7%B3%BB%E7%B5%B1%E5%9B%9E%E5%BE%A9%E9%81%8B%E4%BD%9C%E4%BC%B0%E7%84%A1%E9%87%8D%E5%A4%A7%E5%BD%B1%E9%9F%BF-064423485.html

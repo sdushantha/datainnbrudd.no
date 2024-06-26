@@ -7,13 +7,13 @@ from datetime import datetime
 homepage = "../index.mdx"
 victim_dir = "../offer"
 data_file = "data.yaml"
-ransomware_type_data_file = "ransomware-type-info.yaml"
+incident_context_file = "incident-context.yaml"
 
 
 with open(data_file, 'r') as file:
     data = yaml.safe_load(file)
 
-with open(ransomware_type_data_file, "r") as file:
+with open(incident_context_file, "r") as file:
     ransomware_type_info_data = yaml.safe_load(file)
 
  
@@ -55,10 +55,11 @@ for item in sorted_data:
     image = item.get("image")
     summary = item.get("summary")
     references = "\n".join([f"- {reference}" for reference in item.get("reference")])
+    ai_notice = "<sup><i>Oppsummeringen er laget av en KI-tjeneste fra OpenAI basert på kildene nedenfor. Innholdet er kvalitetssikret før publisering.</i></sup>" if item.get("ai") else ""
     
     
     template = f"""---
-title: '{entity} - {date.replace("-", ".")}'
+title: '{entity}'
 mode: 'wide'
 ---
 
@@ -68,17 +69,17 @@ mode: 'wide'
 
 {summary}
 
-<sup><i>Oppsummeringen er laget av en KI-tjeneste fra OpenAI basert på kildene nedenfor. Innholdet er kvalitetssikret før publisering.</i></sup>
+{ai_notice}
 
 ## Kilder
 {references}
 """
     
     incident_type = item.get('incident-type')
-    ransomware_type = item.get('ransomware-type')
-    if ransomware_type:
-        url = ransomware_type_info_data.get(ransomware_type)
-        incident_type = f"Løsepengevirus ([{ransomware_type}]({url}))"
+    
+    if incident_context:= item.get('incident-context'):
+        url = ransomware_type_info_data.get(incident_context)
+        incident_type = f"{incident_type} ([{incident_context}]({url}))"
     
     filename = f"{entity_clean}-{date.replace('??', 'NA')}.mdx"
     markdown_table += f"| {date} | [{entity}]({victim_dir}/{filename.replace(".mdx", "")}) | {incident_type} |\n"
