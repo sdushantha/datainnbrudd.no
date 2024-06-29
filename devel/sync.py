@@ -61,6 +61,7 @@ for item in sorted_data:
     template = f"""---
 title: '{entity}'
 mode: 'wide'
+'og:title': '{entity} - Datainnbrudd.no'
 ---
 
 <Frame>
