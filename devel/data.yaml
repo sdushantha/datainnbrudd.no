@@ -855,8 +855,8 @@
   date: "2023-08-??"
   sector: Engineering and manufacturing
   image: kongsberg.png
-  ai: true
-  summary: I august 2023 ble det rapportert at ansatte i Kongsberg Maritime ble målrettet med falske jobbtilbud fra rekrutteringseksperter på LinkedIn. Tilbudene inneholdt spionvare som var designet for å stjele selskapets informasjon. Dette cybersikkerhetsbruddet ble bekreftet av Kongsberg Maritime, som opplyste at spionvaren ble forsøkt installert gjennom de attraktive jobbtilbudene​ 
+  ai: true 
+  summary: I august 2023 ble ansatte i Kongsberg Maritime målrettet angrepet med falske jobbtilbud på LinkedIn. Tilbudene inneholdt spionvare som var designet for å stjele selskapets informasjon. Dette cybersikkerhetsbruddet ble bekreftet av Kongsberg Maritime, som opplyste at spionvaren ble forsøkt installert gjennom de attraktive jobbtilbudene​ 
   reference:
     - https://www.dn.no/teknologi/kongsberg-maritime/hacking/linkedin/kongsberg-ingeniorer-lokket-med-attraktive-jobbtilbud-som-inneholdt-spionvare/2-1-1503873
 
