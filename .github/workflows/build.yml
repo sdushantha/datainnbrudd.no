@@ -3,7 +3,7 @@ name: Build MDX Pages
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - "devel/data.yaml"
 
