@@ -1077,6 +1077,7 @@
 
 - entity: Helthjem
   incident-type: Datainnbrudd
+  incident-context: null
   date: "2024-01-29"
   sector: Retail & commerce
   image: helthjem.png
