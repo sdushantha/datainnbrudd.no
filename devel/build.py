@@ -4,10 +4,10 @@ import re
 import shutil
 from datetime import datetime
 
-homepage = "../index.mdx"
-victim_dir = "../offer"
-data_file = "data.yaml"
-incident_context_file = "incident-context.yaml"
+homepage = "index.mdx"
+victim_dir = "offer"
+data_file = "devel/data.yaml"
+incident_context_file = "devel/incident-context.yaml"
 
 
 with open(data_file, 'r') as file:
@@ -93,3 +93,4 @@ with open(homepage, 'w') as file:
     file.write(markdown_table)
 
 print("Updated!")
+
