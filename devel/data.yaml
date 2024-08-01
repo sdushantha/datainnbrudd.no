@@ -84,14 +84,14 @@
   reference:
     - https://www.dn.no/teknologi/oljefondet/hacking/solarwinds/norways-11179-billion-nok-wealth-fund-affected-by-the-solarwinds-hack/2-1-964180
   
-- entity: GK (Gunner Karlsen)
+- entity: GK Gruppen
   incident-type: Løsepengevirus
   incident-context: Hive
   date: "2021-07-17"
   sector: Engineering and manufacturing
   image: gk.png
   ai: true
-  summary: "Den 17. juli 2021 ble GK Gruppen utsatt for løsepengeviruset Hive som primært rammet interne systemer. Dette resulterte i tyveri av persondata om 3.500 ansatte fra lønnsarkivet i Norge. Dataangrepet ble raskt oppdaget og stoppet. GK har anmeldt hendelsen til politiet og varslet Datatilsynet. Sammen med eksterne sikkerhetseksperter jobbet GK med å gjenopprette systemer og informere berørte ansatte om mulige konsekvenser og forebygging mot ID-tyveri."
+  summary: "Den 17. juli 2021 ble GK Gruppen utsatt for løsepengeviruset Hive som primært rammet interne systemer. Dette resulterte i tyveri av persondata om 3.500 ansatte fra lønnsarkivet i Norge. Dataangrepet ble raskt oppdaget og stoppet. GK Gruppen har anmeldt hendelsen til politiet og varslet Datatilsynet. Sammen med eksterne sikkerhetseksperter jobbet GK Gruppen med å gjenopprette systemer og informere berørte ansatte om mulige konsekvenser og forebygging mot ID-tyveri."
   reference:
     - https://www.digi.no/artikler/alarmene-hos-gk-gruppen-gikk-pa-lordag-kritiske-persondata-om-3-500-ansatte-er-trolig-pa-avveie/512086
     - https://www.gk.no/siste-nytt/2021/gk-har-blitt-utsatt-for-et-dataangrep
