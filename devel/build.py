@@ -80,6 +80,8 @@ mode: 'wide'
 ## Kilder
 {references}
 """
+    fe = fg.add_entry()
+    fe.title(f"{entity} ({incident_type})")
     
     if incident_context:= item.get("incident-context"):
         url = ransomware_type_info_data.get(incident_context)
@@ -88,20 +90,14 @@ mode: 'wide'
     filename = f"{entity_clean}-{date.replace('??', 'NA')}.mdx"
     markdown_table += f"| {date} | [{entity}]({victim_dir}/{filename.replace(".mdx", "")}) | {incident_type} |\n"
    
-    fe = fg.add_entry()
-    date = item.get('date')
-    entity = item.get('entity')
-    entity_clean = re.sub("[\\W_]+", "-", entity, re.UNICODE)
-    summary = item.get("summary")
-    incident_type = item.get('incident-type')
-    
-    fe.title(f"{entity} ({incident_type})")
     fe.link(href=f"https://datainnbrudd.no/{victim_dir}/{entity_clean}-{date.replace('??', 'NA')}")
     fe.description(summary)
 
     parsed_date = parse_date(date)
     localized_date = oslo_tz.localize(parsed_date)
     fe.pubDate(localized_date)
+    
+    fe.enclosure(f"https://raw.githubusercontent.com/sdushantha/datainnbrudd.no/main/images/{image}", 0, "image/png")
    
     
     with open(f"{victim_dir}/{filename}", "w") as f:
