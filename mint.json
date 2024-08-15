@@ -11,6 +11,10 @@
       "to": "#07C983"
     } 
   },
+  "topbarCTA": {
+    "name": "RSS Feed",
+    "url": "https://raw.githubusercontent.com/sdushantha/datainnbrudd.no/main/feed.xml"
+  },
   "navigation": [
     {
       "group": "",
