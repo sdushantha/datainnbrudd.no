@@ -1090,7 +1090,7 @@
     - https://www.gd.no/sikkerhetsbrudd-hos-leveringstjenesten-helthjem/s/5-18-1942986
 
 - entity: NOBI AS
-  incident-type: Datainnbrudd
+  incident-type: Løspengevirus
   incident-context: Meow
   date: "2024-08-31"
   sector: Engineering and manufacturing
