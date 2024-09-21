@@ -1121,3 +1121,13 @@
   reference:
     - http://breached26tezcofqla4adzyn22notfqwcac7gpbrleg4usehljwkgqd.onion/Thread-SELLING-lunsj-no-67K-Norwegian
     - https://www.digi.no/artikler/selger-datalekkasje-med-140-000-berorte-kunder-fra-lars-monsens-nettbutikk/525070
+
+- entity: Nordea
+  incident-type: DDoS
+  date: "2024-09-20"
+  sector: Banking, insurance, & other financial fields 
+  image: nordea.png
+  ai: true
+  summary: I uke 38 i 2024 opplevde Nordea sine kunder problemer med tilgang til mobil og nettbanken grunnet teknisk vedlikehold og DDoS angrep. Angrepene har ikke påvirket personopplysninger eller penger på konto. Banken samarbeider med myndighetene og jobber aktivt for å løse problemene.
+  reference:
+    - https://www.vg.no/nyheter/i/pPnkpG/nordea-utsatt-for-ddos-angrep-og-teknisk-vedlikehold
