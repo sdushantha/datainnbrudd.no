@@ -1100,3 +1100,13 @@
   reference:
     - https://www.digi.no/artikler/norsk-betongindustri-rammet-av-losepengeangrep/550538
     - http://meow6xanhzfci2gbkn3lmbqq7xjjufskkdfocqdngt3ltvzgqpsg5mid.onion/product/72
+
+- entity: Lunsj.no Norge AS
+  incident-type: Datainnbrudd
+  date: "2024-08-31"
+  sector: Food and catering 
+  image: lunsj.png
+  ai: true
+  summary: Den 31. august 2024 ble Lunsj rammet av et datainnbrudd hvor der 67.000 rader med kundeinformasjon ble lekket. Denne informasjonen inkluderer navn, adresse, telefonnummer, og passord-hasher. Data om kundens bestillinger er også kompromittert. Den stjålne informasjonen blir nå solgt på Breachforums.
+  reference:
+    - http://breached26tezcofqla4adzyn22notfqwcac7gpbrleg4usehljwkgqd.onion/Thread-SELLING-lunsj-no-67K-Norwegian
