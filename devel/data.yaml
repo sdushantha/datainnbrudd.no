@@ -1110,3 +1110,14 @@
   summary: Den 31. august 2024 ble Lunsj rammet av et datainnbrudd hvor der 67.000 rader med kundeinformasjon ble lekket. Denne informasjonen inkluderer navn, adresse, telefonnummer, og passord-hasher. Data om kundens bestillinger er også kompromittert. Den stjålne informasjonen blir nå solgt på Breachforums.
   reference:
     - http://breached26tezcofqla4adzyn22notfqwcac7gpbrleg4usehljwkgqd.onion/Thread-SELLING-lunsj-no-67K-Norwegian
+
+- entity: KomplettFritid
+  incident-type: Datainnbrudd
+  date: "2021-02-??"
+  sector: Retail & commerce 
+  image: komplettfritid.png
+  ai: false
+  summary: I februar 2021 ble KomplettFritid rammet av et datainnbrudd hvor opplysninger om 140.000 kunder ble stjålet og lagt ut på Breachforums. Personopplysningene som er på avveie kan bli misbrukt, medgir selskapet.
+  reference:
+    - http://breached26tezcofqla4adzyn22notfqwcac7gpbrleg4usehljwkgqd.onion/Thread-SELLING-lunsj-no-67K-Norwegian
+    - https://www.digi.no/artikler/selger-datalekkasje-med-140-000-berorte-kunder-fra-lars-monsens-nettbutikk/525070
