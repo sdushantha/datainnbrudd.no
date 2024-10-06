@@ -1033,3 +1033,13 @@
   summary: I uke 38 i 2024 opplevde Nordea sine kunder problemer med tilgang til mobil og nettbanken grunnet teknisk vedlikehold og DDoS angrep. Angrepene har ikke påvirket personopplysninger eller penger på konto. Banken samarbeider med myndighetene og jobber aktivt for å løse problemene.
   reference:
     - https://www.vg.no/nyheter/i/pPnkpG/nordea-utsatt-for-ddos-angrep-og-teknisk-vedlikehold
+
+- entity: Fritzøe Engros
+  incident-type: Løsepengevirus
+  incident-context: Medusa
+  date: "2024-09-19"
+  image: fritzoe-engros.png
+  ai: true
+  summary: Den 19. september ble data fra Fritzøe Engros lagt ut for nedlasting etter at selskapet ble rammet av løsepengeviruset Medusa. Fritzøe Engros har ennå ikke gitt noen offisiell uttalelse, og det er fortsatt uklart når angrepet egentlig skjedde.
+  reference: 
+    - http://xfv4jzckytb4g3ckwemcny3ihv4i5p4lqzdpi624cxisu35my5fwi5qd.onion/detail?id=17d73bbffe28aac37845c8a635593d57
