@@ -1053,3 +1053,13 @@
   summary: Den 23. september ble data fra Hairstore lagt ut for nedlasting etter at selskapet ble rammet av løsepengeviruset Medusa. Hairstore har ennå ikke gitt noen offisiell uttalelse, og det er fortsatt uklart når angrepet egentlig skjedde.
   reference: 
     - http://xfv4jzckytb4g3ckwemcny3ihv4i5p4lqzdpi624cxisu35my5fwi5qd.onion/detail?id=5523ae276afb7aaee2cead2e4ad7be53
+
+- entity: Isola
+  incident-type: Løsepengevirus
+  incident-context: Medusa
+  date: "2024-09-30"
+  image: isola.png
+  ai: true
+  summary: Den 30. september ble Isola, en ledende leverandør av løsninger for tak, vegg og grunn i byggebransjen, rammet av løsepengeviruset Medusa. Selskapets data er lagt ut for salg for 100 000 USD, og ifølge en nedtelling på nettsiden vil informasjonen bli offentliggjort tirsdag 8. oktober 2024 dersom løsepengene ikke betales.
+  reference: 
+    - http://xfv4jzckytb4g3ckwemcny3ihv4i5p4lqzdpi624cxisu35my5fwi5qd.onion/detail?id=5523ae276afb7aaee2cead2e4ad7be53
