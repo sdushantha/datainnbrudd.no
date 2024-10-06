@@ -1043,3 +1043,13 @@
   summary: Den 19. september ble data fra Fritzøe Engros lagt ut for nedlasting etter at selskapet ble rammet av løsepengeviruset Medusa. Fritzøe Engros har ennå ikke gitt noen offisiell uttalelse, og det er fortsatt uklart når angrepet egentlig skjedde.
   reference: 
     - http://xfv4jzckytb4g3ckwemcny3ihv4i5p4lqzdpi624cxisu35my5fwi5qd.onion/detail?id=17d73bbffe28aac37845c8a635593d57
+
+- entity: Hairstore
+  incident-type: Løsepengevirus
+  incident-context: Medusa
+  date: "2024-09-19"
+  image: hairstore.png
+  ai: true
+  summary: Den 23. september ble data fra Hairstore lagt ut for nedlasting etter at selskapet ble rammet av løsepengeviruset Medusa. Hairstore har ennå ikke gitt noen offisiell uttalelse, og det er fortsatt uklart når angrepet egentlig skjedde.
+  reference: 
+    - http://xfv4jzckytb4g3ckwemcny3ihv4i5p4lqzdpi624cxisu35my5fwi5qd.onion/detail?id=5523ae276afb7aaee2cead2e4ad7be53
