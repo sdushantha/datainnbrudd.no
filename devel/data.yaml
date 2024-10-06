@@ -94,7 +94,7 @@
   date: "2021-05-05"
   image: volue.png
   ai: true
-  summary: 5 mai 2021 ble Volue rammet av løspengeviruset Ryuk som påvirket Volue Technology. Volue startet umiddelbart "Operation Stop & Recover" for å håndtere situasjonen. Ingen bevis for dataeksfiltrasjon ble funnet under etterforskningen. Selskapet implementerte forbedringer som en robust kommunikasjonsprosess i tidlig fase og fortsetter med sitt "Build Back Better"-prosjekt for å styrke sikkerheten. Andre Volue-selskaper som Volue Insight og Market Services ble ikke påvirket.
+  summary: 5 mai 2021 ble Volue rammet av løsepengeviruset Ryuk som påvirket Volue Technology. Volue startet umiddelbart "Operation Stop & Recover" for å håndtere situasjonen. Ingen bevis for dataeksfiltrasjon ble funnet under etterforskningen. Selskapet implementerte forbedringer som en robust kommunikasjonsprosess i tidlig fase og fortsetter med sitt "Build Back Better"-prosjekt for å styrke sikkerheten. Andre Volue-selskaper som Volue Insight og Market Services ble ikke påvirket.
   reference:
     - https://www.volue.com/news/postmortem
 
@@ -104,7 +104,7 @@
   date: "2021-07-26"
   image: inocean.png
   ai: true
-  summary: "26 juni 2021 ble det norske ingeniørselskapet Inocean utsatt løspengeviruset REvil. Hackerne lastet ned 2000 gigabyte med data og truet med å publisere materialet med mindre selskapet betalte et utpressingskrav. Inocean, som arbeider med skips-, offshore- og flytende vindkraftteknologi, tilbakestilte servere og systemer som en beskyttende tiltak. Angriperne publiserte trusselbrev på det mørke nettet, og viste til bilder av e-poster, interne dokumenter og tekniske skisser. NSM og Kripos ble involvert i etterforskningen."
+  summary: "26 juni 2021 ble det norske ingeniørselskapet Inocean utsatt løsepengeviruset REvil. Hackerne lastet ned 2000 gigabyte med data og truet med å publisere materialet med mindre selskapet betalte et utpressingskrav. Inocean, som arbeider med skips-, offshore- og flytende vindkraftteknologi, tilbakestilte servere og systemer som en beskyttende tiltak. Angriperne publiserte trusselbrev på det mørke nettet, og viste til bilder av e-poster, interne dokumenter og tekniske skisser. NSM og Kripos ble involvert i etterforskningen."
   reference:
     - https://www.nrk.no/norge/stort-dataangrep-mot-norsk-ingeniorselskap-1.15568171
     - https://www.digi.no/artikler/2000-gigabyte-lastet-ned-norsk-selskap-rammet-av-omfattende-angrep/511832
@@ -148,7 +148,7 @@
   date: "2021-01-09"
   image: ostre-toten-kommune.png
   ai: true
-  summary: "Østre Toten kommune ble rammet av løspengeviruset PYSA den 9. januar 2021, som gjorde alle fagsystemer utilgjengelige og påvirket hele kommunens virksomhet. Kommunen får nå 16 millioner kroner i skjønnsmidler for å dekke deler av utgiftene knyttet til gjenopprettelse av IKT-driften, gjenskaping av datasystemer og implementering av sikkerhetstiltak etter angrepet. Kompensasjonen er ment å sikre at tjenestene til innbyggerne ikke blir påvirket negativt av kostnadene forårsaket av angrepet."
+  summary: "Østre Toten kommune ble rammet av løsepengeviruset PYSA den 9. januar 2021, som gjorde alle fagsystemer utilgjengelige og påvirket hele kommunens virksomhet. Kommunen får nå 16 millioner kroner i skjønnsmidler for å dekke deler av utgiftene knyttet til gjenopprettelse av IKT-driften, gjenskaping av datasystemer og implementering av sikkerhetstiltak etter angrepet. Kompensasjonen er ment å sikre at tjenestene til innbyggerne ikke blir påvirket negativt av kostnadene forårsaket av angrepet."
   reference:
     -  https://www.regjeringen.no/no/aktuelt/16-millioner-kroner-til-ostre-toten-etter-dataangrep-i-januar-2021/id2892730/
 
@@ -338,7 +338,7 @@
   date: "2021-09-07"
   image: radionordkapp.png
   ai: true
-  summary: 7 september 2021 ble Radio Nordkapp utsatt for et løspengevirus. Hele nettverket, inkludert programmer, lyder og bilder, ble satt ut av spill. Kringkastningssjef Raymond Elde opplyser at de har mistet alt fra kjenninger til revymusikk, innslag og reklamelister. Dette er første gang Elde har opplevd noe lignende, noe han tidligere kun har sett på film eller lest historier om. Det pågår en evaluering for å vurdere om det tapte kan gjenopprettes, men konklusjonen er ennå ikke klar.
+  summary: 7 september 2021 ble Radio Nordkapp utsatt for et løsepengevirus. Hele nettverket, inkludert programmer, lyder og bilder, ble satt ut av spill. Kringkastningssjef Raymond Elde opplyser at de har mistet alt fra kjenninger til revymusikk, innslag og reklamelister. Dette er første gang Elde har opplevd noe lignende, noe han tidligere kun har sett på film eller lest historier om. Det pågår en evaluering for å vurdere om det tapte kan gjenopprettes, men konklusjonen er ennå ikke klar.
   reference:
     - https://www.radionordkapp.no/nyheter/17307/radio-nordkapp-angrepet/
     - https://www.ifinnmark.no/radio-nordkapp-er-hacket-star-at-vi-skal-sende-mail-til-en-kar/s/5-81-1461286
@@ -376,7 +376,7 @@
     - https://www.digi.no/artikler/dette-er-trusselaktoren-som-hacket-nordic-choice-slik-opptrer-banden/515566
 
 - entity: Marinelektronikk
-  incident-type: Løspengevirus
+  incident-type: Løsepengevirus
   incident-context: null
   date: "2021-04-??"
   image: marinelektronikk.png
@@ -390,7 +390,7 @@
   incident-context: Conti
   date: "2021-12-??"
   image: glamox.png
-  summary: Desember 2021 ble Glamox rammet av løspengeviruset Conti. Glamox sier at de har avverget et svært alvorlig cyberangrep.
+  summary: Desember 2021 ble Glamox rammet av løsepengeviruset Conti. Glamox sier at de har avverget et svært alvorlig cyberangrep.
   reference:
     - https://www.digi.no/artikler/glamox-angrepet-av-samme-trusselaktor-som-hacket-nordic-choice/515668
 
@@ -485,7 +485,7 @@
   incident-context: null
   date: "2021-12-??"
   image: hasas.png
-  summary: Desember 2021 ble Hasås, tidligere Eikås Sagbruk,  hard rammet av et løspengevirusangrep.
+  summary: Desember 2021 ble Hasås, tidligere Eikås Sagbruk,  hard rammet av et løsepengevirusangrep.
   reference:
     - https://www.lister24.no/nyheter/i/8Q70ew/hackere-krever-loesepenger-av-sagbruk
 
@@ -505,7 +505,7 @@
   date: "2021-04-21"
   image: hh.png
   ai: true
-  summary: Den 21. april ble Helly Hansen ble utsatt for et løspengevirusangrep som førte til at enkelte servere ble kryptert, noe som gjorde IT-systemer utilgjengelige. Det er ingen tegn til at data ble eksfiltrert. Angrepet påvirket tilgjengeligheten av informasjon og IT-systemer, noe som skapte problemer for kunder.
+  summary: Den 21. april ble Helly Hansen ble utsatt for et løsepengevirusangrep som førte til at enkelte servere ble kryptert, noe som gjorde IT-systemer utilgjengelige. Det er ingen tegn til at data ble eksfiltrert. Angrepet påvirket tilgjengeligheten av informasjon og IT-systemer, noe som skapte problemer for kunder.
   reference:
     - https://nrkbeta.no/2022/03/01/helly-hansen-ble-offer-for-digitale-utpressere/
 
@@ -526,7 +526,7 @@
   date: "2022-05-??"
   image: age-nilsen.png
   ai: true
-  summary: I mai 2022 ble Åge Nilsen AS rammet av løspengeviruset LockBit 2.0. Ifølge iTromsø.no omfatter den stjålne informasjonen personalmapper for alle 70 ansatte, selskapets bankavtaler og regnskap. Daglig leder Tor ønsket ikke å kommentere saken ytterligere.
+  summary: I mai 2022 ble Åge Nilsen AS rammet av løsepengeviruset LockBit 2.0. Ifølge iTromsø.no omfatter den stjålne informasjonen personalmapper for alle 70 ansatte, selskapets bankavtaler og regnskap. Daglig leder Tor ønsket ikke å kommentere saken ytterligere.
   reference:
     - LockBit DLS
     - https://www.tv2.no/a/14804271/
@@ -546,7 +546,7 @@
   incident-context: Conti
   date: "2022-03-??"
   image: imenco.png
-  summary: I mars 2022 ble Imenco sine systemer rammet av løspengeviruset Conti.
+  summary: I mars 2022 ble Imenco sine systemer rammet av løsepengeviruset Conti.
   reference:
     - Conti DLS
 
@@ -567,7 +567,7 @@
   date: "2022-02-02"
   image: aquabyte.png
   ai: true
-  summary: Den 2 februar 2022 ble Aquabyte utsatt for et løspengevirusangrep. Angrepet førte til midlertidige systemforstyrrelser, men selskapet bekrefter at ingen kundedata gikk tapt. Myndighetene ble varslet, og det ble iverksatt tiltak for å undersøke hendelsen og forhindre fremtidige angrep.
+  summary: Den 2 februar 2022 ble Aquabyte utsatt for et løsepengevirusangrep. Angrepet førte til midlertidige systemforstyrrelser, men selskapet bekrefter at ingen kundedata gikk tapt. Myndighetene ble varslet, og det ble iverksatt tiltak for å undersøke hendelsen og forhindre fremtidige angrep.
   reference:
     - https://salmonbusiness.com/aquabyte-hit-by-hacker-attacks/
     - https://www.kyst.no/aquabyte-dataangrep-hacking/aquabyte-utsatt-for-hacker-angrep/353010
@@ -588,7 +588,7 @@
   incident-context: LockBit 3.0
   date: "2022-09-??"
   image: elementnor.png
-  summary: I september 2022 ble ElementNOR AS rammet av løspengeviruset LockBit 3.0.
+  summary: I september 2022 ble ElementNOR AS rammet av løsepengeviruset LockBit 3.0.
   reference:
     - LockBit DLS
     - https://www.digi.no/artikler/industribedrift-i-balsfjord-utpekt-som-offer-for-losepengevirus/522390/ 
@@ -610,7 +610,7 @@
   date: "2022-??-??"
   image: recsilicon.png
   ai: true
-  summary: I 2022 ble REC Silicon rammet av løspengeviruset Ransomexx som påvirket selskapets IT-systemer. Angrepet førte til driftsforstyrrelser og tvang selskapet til å midlertidig stenge ned flere av sine operasjoner.
+  summary: I 2022 ble REC Silicon rammet av løsepengeviruset Ransomexx som påvirket selskapets IT-systemer. Angrepet førte til driftsforstyrrelser og tvang selskapet til å midlertidig stenge ned flere av sine operasjoner.
   reference:
     - https://www.dn.no/bors/rec-silicon/oslo-bors/rec-silicon-rammet-av-hackerangrep/2-1-1376201
     - https://www.digi.no/artikler/172-gigabyte-med-stjalne-data-fra-rec-silicon-lagt-ut-pa-nettet/524472
@@ -621,7 +621,7 @@
   date: "2022-12-15"
   image: stangeland.png
   ai: true
-  summary: Den 15. desember 2022 oppdaget de ansatte i Stangeland Maskin at selskapets datasystemer var låst på grunn av et løspengevirusangrep. Hackerne krevde flere titalls millioner kroner i løsepenger for å låse opp systemene igjen. Selskapet har engasjert eksperter på datasikkerhet og varslet politiet om hendelsen. 
+  summary: Den 15. desember 2022 oppdaget de ansatte i Stangeland Maskin at selskapets datasystemer var låst på grunn av et løsepengevirusangrep. Hackerne krevde flere titalls millioner kroner i løsepenger for å låse opp systemene igjen. Selskapet har engasjert eksperter på datasikkerhet og varslet politiet om hendelsen. 
   reference:
     - https://www.nrk.no/rogaland/hackere-krever-losepenger-av-stangeland-maskin-1.16231333
 
@@ -701,7 +701,7 @@
   incident-context: Play
   date: "2023-04-22"
   image: uecc.png
-  summary: Den 22. april 2023 ble United European Car Carriers (UECC) sine systemer rammet av løspengeviruset Play. UECC forsikrer at hendelsen ikke påvirker skipene deres.
+  summary: Den 22. april 2023 ble United European Car Carriers (UECC) sine systemer rammet av løsepengeviruset Play. UECC forsikrer at hendelsen ikke påvirker skipene deres.
   reference:
     - https://www.redpacketsecurity.com/play-ransomware-victim-uecc/
 
@@ -711,7 +711,7 @@
   date: "2023-05-??"
   image: helios.png
   ai: true
-  summary: I mai 2023 ble systemene til Helios auto rammet av et løspengevirusangre. Angrepet medførte at systemene for booking og delebestillinger ble utilgjengelige. Helios Auto informerte kundene om problemet og startet arbeidet med å sikre dataene og gjenopprette systemene. Angrepet ble stoppet, og ingen data ble skadet. Helios Auto bekreftet senere at de hadde identifisert kilden til angrepet og jobbet med å gjenopprette systemtilgangen for de berørte verkstedene.
+  summary: I mai 2023 ble systemene til Helios auto rammet av et løsepengevirusangre. Angrepet medførte at systemene for booking og delebestillinger ble utilgjengelige. Helios Auto informerte kundene om problemet og startet arbeidet med å sikre dataene og gjenopprette systemene. Angrepet ble stoppet, og ingen data ble skadet. Helios Auto bekreftet senere at de hadde identifisert kilden til angrepet og jobbet med å gjenopprette systemtilgangen for de berørte verkstedene.
   reference:
     - https://www.digi.no/artikler/utsatt-for-losepenge-angrep-onsker-ingen-kontakt-med-angriperne/531722
     - https://www.tungt.no/article/view/1033344/itsystem_hacket_lastebilverksteder_rammet
@@ -722,7 +722,7 @@
   date: "2023-06-??"
   image: pra-group.png
   ai: true
-  summary: I juni 2023 ble PRA Group Norge AS sine systemer rammat av løspengeviruset Cl0p. Det er enda ikke noe informasjon om hva som er på avveie, hvem som er påvirket eller hvor informasjonen er.
+  summary: I juni 2023 ble PRA Group Norge AS sine systemer rammat av løsepengeviruset Cl0p. Det er enda ikke noe informasjon om hva som er på avveie, hvem som er påvirket eller hvor informasjonen er.
   reference:
     - https://github.com/curated-intel/MOVEit-Transfer
     - https://www.digi.no/artikler/personinfo-fra-norsk-inkassofirma-kan-vaere-pa-avveie-etter-gigantisk-losepengeangrep/533245
@@ -732,7 +732,7 @@
   incident-context: AlphVM
   date: "2023-06-??"
   image: e-a-smith.png
-  summary: I juni 2023 ble E. A. Smith sine systemer rammet av løspengeviruset AlphVM.
+  summary: I juni 2023 ble E. A. Smith sine systemer rammet av løsepengeviruset AlphVM.
   reference:
     - https://www.adressa.no/nyhetsstudio/i/LlXkOV/trondheimsbedrift-rammet-av-datainnbrudd
 
@@ -802,7 +802,7 @@
   date: "2023-10-??"
   image: ikm.png
   ai: true
-  summary: I oktober 2023 ble IKM Gruppen AS sine systemer rammet av løspengeviruset AlphVM. Konsernsjef Ståle Kyllingstad uttalte at de foreløpig ikke har opplevd noen økonomisk skade og at det er usikkert om data har kommet på avveie. IKM Gruppen valgte å ikke inngå i noen form for dialog eller betaling med utpresserne. Hendelsen rammet kun en mindre del av deres engelske virksomhet i Aberdeen. Selskapet var i drift igjen etter 24 timer takket være gode backup-systemer.
+  summary: I oktober 2023 ble IKM Gruppen AS sine systemer rammet av løsepengeviruset AlphVM. Konsernsjef Ståle Kyllingstad uttalte at de foreløpig ikke har opplevd noen økonomisk skade og at det er usikkert om data har kommet på avveie. IKM Gruppen valgte å ikke inngå i noen form for dialog eller betaling med utpresserne. Hendelsen rammet kun en mindre del av deres engelske virksomhet i Aberdeen. Selskapet var i drift igjen etter 24 timer takket være gode backup-systemer.
   reference:
     - https://www.nrk.no/nyheter/norsk-konsern-bekrefter-utpressingsforsok-1.16591025
 
@@ -821,7 +821,7 @@
   incident-context: LockBit 3.0
   date: "2023-11-21"
   image: martinique.png
-  summary: Den 21 november 2023 ble Martinique sine systemer rammet av løspengeviruset LockBit 3.0. De har mottatt trusselbrev fra hackerne.
+  summary: Den 21 november 2023 ble Martinique sine systemer rammet av løsepengeviruset LockBit 3.0. De har mottatt trusselbrev fra hackerne.
   reference:
     - https://www.digi.no/artikler/hackergruppe-truer-bar-i-stavanger/540066
 
@@ -831,7 +831,7 @@
   date: "2023-11-25"
   image: interfil.png
   ai: true
-  summary: Den 25 november 2023 ble Interfill sine systemer utsatt for et løspengevirusangrep. Angrepet førte til at sensitive, fortrolige eller private opplysninger kan ha blitt eksponert. Nettbutikken har vært utilgjengelig i ti dager, men kundene viser stor forståelse, ifølge daglig leder.
+  summary: Den 25 november 2023 ble Interfill sine systemer utsatt for et løsepengevirusangrep. Angrepet førte til at sensitive, fortrolige eller private opplysninger kan ha blitt eksponert. Nettbutikken har vært utilgjengelig i ti dager, men kundene viser stor forståelse, ifølge daglig leder.
   reference:
     - https://www.digi.no/artikler/losepengeangrep-sensitive-fortrolige-eller-private-opplysninger-kan-vaere-eksponert/541509
 
@@ -860,7 +860,7 @@
   incident-context: Akira
   date: "2024-01-09"
   image: ito-pallpack.png
-  summary: Den 9. januar 2024 ble ITO PallPack Gruppen AS sine systemer rammet av et løspengevirusangrep fra Akira.
+  summary: Den 9. januar 2024 ble ITO PallPack Gruppen AS sine systemer rammet av et løsepengevirusangrep fra Akira.
   reference:
     - Akira DLS
 
@@ -869,7 +869,7 @@
   incident-context: Qilin
   date: "2024-01-12"
   image: hotel-continental.png
-  summary: Den 12 januar 2024 ble Hotel Continental sine systemer rammet av løspengeviruset Qilin.
+  summary: Den 12 januar 2024 ble Hotel Continental sine systemer rammet av løsepengeviruset Qilin.
   reference:
     - Qilin DLS
     - https://www.digi.no/artikler/ikonisk-luksushotell-i-oslo-rammet-av-datainnbrudd/542340
@@ -890,7 +890,7 @@
   incident-context: Akira
   date: "2024-01-19"
   image: tietoevry.png
-  summary: Den 19. januar 2024 ble Rusta påvirket av løspengevirusangrept fra Akira på TietoEVRY AS
+  summary: Den 19. januar 2024 ble Rusta påvirket av løsepengevirusangrept fra Akira på TietoEVRY AS
   reference:
     - https://www.digi.no/artikler/svenske-riksdagen-rammet-av-hacker-angrepet-veldig-alvorlig/542763
 
@@ -944,7 +944,7 @@
   incident-context: RansomHub
   date: "2024-03-28"
   image: avant-it.png
-  summary: Den 28 mars 2024 ble Avant IT sine systemer rammet av løspengeviruset RansomHub.
+  summary: Den 28 mars 2024 ble Avant IT sine systemer rammet av løsepengeviruset RansomHub.
   reference:
     - RansomHub DLS
 
@@ -967,7 +967,7 @@
   incident-context: Space Bears
   date: "2024-04-28"
   image: ffs.png
-  summary: Den 28. april 2024 ble Fire Fighting Systems AS sine systemer rammet av løspengeviruset Space Bears.
+  summary: Den 28. april 2024 ble Fire Fighting Systems AS sine systemer rammet av løsepengeviruset Space Bears.
   reference:
     - Space Bears DLS
     - https://www.digi.no/artikler/ble-utsatt-for-angrep-det-var-noen-hyggelige-hackere/546486
@@ -977,7 +977,7 @@
   incident-context: 8BASE
   date: "2024-05-13"
   image: espeland.png
-  summary: Den 14. mai 2024 ble Sigmund Espeland AS sine systemer rammet av løspengeviruset 8BASE. Vi har ikke funnet noen nyhetartikler om denne saken. Dersom du har tips, [gi oss beskjed](/tips-oss)
+  summary: Den 14. mai 2024 ble Sigmund Espeland AS sine systemer rammet av løsepengeviruset 8BASE. Vi har ikke funnet noen nyhetartikler om denne saken. Dersom du har tips, [gi oss beskjed](/tips-oss)
   reference:
     - 8BASE DLS
     - hxxp://xb6q2aggycmlcrjtbjendcnnwpmmwbosqaugxsqb4nx6cmod3emy7sad.onion/company/7890442
@@ -996,7 +996,7 @@
     - https://www.gd.no/sikkerhetsbrudd-hos-leveringstjenesten-helthjem/s/5-18-1942986
 
 - entity: NOBI AS
-  incident-type: Løspengevirus
+  incident-type: Løsepengevirus
   incident-context: Meow
   date: "2024-08-31"
   image: nobi.png
