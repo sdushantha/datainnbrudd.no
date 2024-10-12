@@ -1073,3 +1073,13 @@
   summary: Den 28. september ble Røros Hotell, en kjent aktør innen reiseliv som tilbyr overnatting, rammet av løsepengeviruset Medusa. 53,8 GB av selskapets data er lagt ut for salg for 100 000 USD, og ifølge en nedtelling på nettsiden vil informasjonen bli offentliggjort mandag 7. oktober 2024 dersom løsepengene ikke betales. Røros Hotell har enda ikke gitt noen offentlige uttalelse om hendelsen.
   reference: 
     - http://xfv4jzckytb4g3ckwemcny3ihv4i5p4lqzdpi624cxisu35my5fwi5qd.onion/detail?id=ea73c627ad3d381f665b26770d158450
+
+- entity: Istrail
+  incident-type: Løsepengevirus
+  incident-context: Medusa
+  date: "2024-10-10"
+  image: istrail.png
+  ai: true
+  summary: Den 10. oktober ble Istrail, en ledende aktør innen produksjon av semitrailere, rammet av løsepengeviruset Medusa. Selskapets data er lagt ut for salg for 100 000 USD, og ifølge en nedtelling på nettsiden vil informasjonen bli offentliggjort mandag 14. oktober 2024 dersom løsepengene ikke betales.
+  reference: 
+    - http://xfv4jzckytb4g3ckwemcny3ihv4i5p4lqzdpi624cxisu35my5fwi5qd.onion/detail?id=5e6ac1669f4d1d94abb14ad0306e6c14
